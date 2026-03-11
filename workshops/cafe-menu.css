@@ -35,65 +35,66 @@ body {
 				        display: block;
 					  margin-left: auto;
 					    margin-right: auto;
-				    }
+					      margin-top: -25px;
+				      }
 
-				    hr {
-					      height: 2px;
-					        background-color: brown;
-						  border-color: brown;
-					  }
-
-					  .bottom-line {
-						    margin-top: 25px;
+				      hr {
+					        height: 2px;
+						  background-color: brown;
+						    border-color: brown;
 					    }
 
-					    h1, h2 {
-						      font-family: Impact, serif;
+					    .bottom-line {
+						      margin-top: 25px;
 					      }
 
-					      .item p {
-						        display: inline-block;
-							  margin-top: 5px;
-							    margin-bottom: 5px;
-							      font-size: 18px;
-						      }
+					      h1, h2 {
+						        font-family: Impact, serif;
+						}
 
-						      .flavor, .dessert {
-							        text-align: left;
-								  width: 75%;
-							  }
+						.item p {
+							  display: inline-block;
+							    margin-top: 5px;
+							      margin-bottom: 5px;
+							        font-size: 18px;
+							}
 
-							  .price {
-								    text-align: right;
-								      width: 25%
-							      }
+							.flavor, .dessert {
+								  text-align: left;
+								    width: 75%;
+							    }
 
-							      /* FOOTER */
-
-							      footer {
-								        font-size: 14px;
+							    .price {
+								      text-align: right;
+								        width: 25%;
 								}
 
-								address {
-									  font-style: normal;
+								/* FOOTER */
+
+								footer {
+									  font-size: 14px;
 								  }
 
-								  .address {
-									    margin-bottom: 5px;
+								  address {
+									    font-style: normal;
 								    }
 
-								    a {
-									      color: black;
+								    .address {
+									      margin-bottom: 5px;
 								      }
 
-								      a:visited {
+								      a {
 									        color: black;
 									}
 
-									a:hover {
-										  color: brown;
+									a:visited {
+										  color: black;
 									  }
 
-									  a:active {
+									  a:hover {
 										    color: brown;
 									    }
+
+									    a:active {
+										      color: brown;
+									      }
